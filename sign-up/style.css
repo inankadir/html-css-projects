@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #131834;    
+}
+
+.signup-form {
+    width: 300px;
+    padding: 20px;
+    background: url(https://images.unsplash.com/photo-1676543850548-c4d64b7739b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.signup-form h1 {
+    color: #fff;
+    margin-top: 100px;
+}
