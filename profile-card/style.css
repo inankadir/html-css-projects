@@ -67,7 +67,7 @@ body {
 
 .description {
     font-size: 18px;
-    color: red;
+    color: #e66767;
 }
 
 .social-media {
@@ -103,6 +103,22 @@ body {
 }
 
 .card-footer {
-    
+    background-color: #f4f4f4;
+    padding: 60px 10px;
 }
 
+.numbers {
+    display: flex;
+    align-items: center;    
+}
+
+.item {
+    flex: 1;
+    font-size: 13px;
+}
+
+.item span {
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+}
