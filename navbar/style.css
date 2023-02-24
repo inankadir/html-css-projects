@@ -39,3 +39,19 @@ body {
 .menu-bar .fas {
     margin-right: 8px;
 }
+
+.sub-menu-1 {
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #5b71b5;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+
+}
+
