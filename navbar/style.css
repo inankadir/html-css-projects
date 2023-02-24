@@ -1,57 +1,90 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: url('https://images.unsplash.com/photo-1615023691139-47180d57138f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');
-    font-family: sans-serif;
+  background: url("https://images.unsplash.com/photo-1677158607710-3731af5a8c31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  font-family: sans-serif;
 }
 
 .menu-bar {
-    background: #5b71b5;
-    text-align: center;
+  background: #5b71b5;
+  text-align: center;
 }
 
 .menu-bar ul {
-    display: inline-flex;
-    list-style: none;
-
+  display: inline-flex;
+  list-style: none;
 }
 
 .menu-bar ul li {
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
+  width: 148px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .menu-bar ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
-.active, .menu-bar ul li:hover {
-    background: #d4c995;
-    border-radius: 10px;
+.active,
+.menu-bar ul li:hover {
+  background: #d4c995;
+  border-radius: 10px;
 }
 
 .menu-bar .fas {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .sub-menu-1 {
-    display: none;
-
+  display: none;
 }
 
 .menu-bar ul li:hover .sub-menu-1 {
-    display: block;
-    position: absolute;
-    background: #5b71b5;
-    margin-top: 15px;
-    margin-left: -15px;
-    font-size: 10px;
-
+  display: block;
+  position: absolute;
+  background: #5b71b5;
+  margin-top: 15px;
+  margin-left: -15px;
+  font-size: 10px;
 }
 
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  text-align: left;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+.fa-caret-right {
+  font-size: 14px;
+  color: #fff;
+  float: right;
+}
+
+.sub-menu-2 {
+  display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140px;
+  background: #5b71b5;
+}
