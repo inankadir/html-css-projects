@@ -35,3 +35,7 @@ body {
     background: #d4c995;
     border-radius: 10px;
 }
+
+.menu-bar .fas {
+    margin-right: 8px;
+}
